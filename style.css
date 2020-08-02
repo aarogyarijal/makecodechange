@@ -43,11 +43,11 @@ li{
 #mem1, #mem2, #mem3, #mem4, #mem5, #mem6 {
     display: flex;
     flex-direction: column;
-    min-width: 180px;
-    max-width: 200px;
+    min-width: fit-content;
+    max-width: 80%;
     width: fit-content;
     height: max-content;
-    padding: 5vmin;
+    padding: 2vmin;
     font-size: medium;
     margin: 3vmin;
     background-color: gray;
@@ -61,8 +61,8 @@ li{
 
 .face {
     display: inline-block;
-    width: 9vw;
-    height: 9vw;
+    width: 150px;
+    height: 150px;
     background-position: center;
     border-radius: 50%;
     border: 2px solid #DCD8D6;
@@ -81,12 +81,12 @@ li{
 
 
 .details .name{
-    font-size: 1.7vw;
+    font-size: xx-large;
     color: #fff;
     text-align: center;
 }
 
 .details > p {
-    font-size: 1.2vw;
+    font-size: large;
     line-height: 1.5;
 }
