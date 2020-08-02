@@ -1,0 +1,92 @@
+
+body {
+    /*background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);*/
+    background-image: linear-gradient( 109.6deg,  rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+#about-us{
+    width: 80%;
+    height: fit-content;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 5%;
+}
+
+#card-title{
+    font-size: xx-large;
+}
+
+#card-text{
+    font-size: large;
+    line-height: 1.5;
+}
+
+li{
+    font-size: medium;
+    line-height: 1.2;
+}
+
+.container_1{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5vmin;
+    justify-content: center;
+}
+
+
+#mem1, #mem2, #mem3, #mem4, #mem5, #mem6 {
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+    max-width: 200px;
+    width: fit-content;
+    height: max-content;
+    padding: 5vmin;
+    font-size: medium;
+    margin: 3vmin;
+    background-color: gray;
+    box-shadow: 0px 3px 2px -1px rgba(0,0,0,0.75);
+    align-items: center;
+    
+}
+
+
+
+
+.face {
+    display: inline-block;
+    width: 9vw;
+    height: 9vw;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid #DCD8D6;
+    position: relative;
+    top: 10px; 
+}
+
+
+
+.details {
+    display: block;
+    color: #eee;
+    width: max-content;
+    
+}
+
+
+.details .name{
+    font-size: 1.7vw;
+    color: #fff;
+    text-align: center;
+}
+
+.details > p {
+    font-size: 1.2vw;
+    line-height: 1.5;
+}
