@@ -91,42 +91,20 @@ li{
 @media only screen and (max-width: 321px) {
     /* For mobile phones: */
     [id*="mem-"] {
-        min-width: fit-content;
-        max-width: 80%;
-        width: fit-content;
-        height: max-content;
         padding: 1.5vmin;
         font-size: small;
         margin: 2vmin;
     }
     .face {
-        display: inline-block;
         width: 120px;
         height: 120px;
-        background-position: center;
-        border-radius: 50%;
-        border: 2px solid #DCD8D6;
-        position: relative;
-        top: 10px; 
-    }
-    
-    
-    .details {
-        display: block;
-        color: #eee;
-        width: max-content;
-        
-    }
-    
+    }    
     
     .details .name{
         font-size: x-large;
-        color: #fff;
-        text-align: center;
     }
     
     .details > p {
         font-size: medium;
-        line-height: 1.5;
     }
 }
