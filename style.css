@@ -88,7 +88,7 @@ li{
     line-height: 1.5;
 }
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 360px) {
     /* For mobile phones: */
     [id*="mem-"] {
         padding: 1.5vmin;
